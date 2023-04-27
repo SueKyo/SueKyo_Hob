@@ -1,1 +1,1 @@
-worker python discord_bot_coming.py
+worker python discord_bot_coming_ver.1.py
