@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-CHANNEL_ID = 1100698702127054859
-SCHEDULED_TIME = '20:00'
+CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
+SCHEDULED_TIME = os.getenv('SCHEDULED_TIME')
 REACTION_CHECK_DELAY = 60 * 60 * 5 # Delay (in seconds) before checking for reactions
 
 intents = Intents.default()
